@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="icon" href="LTSimg.jpg/myicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="project.css">
+
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="header__h1">Contact Us</h1>
+        <nav class="header__nav">
+            <ul class="header__ul">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+
+                <li>
+                    <a href="/#about">About LTS</a>
+                </li>
+                <li>
+                    <a href="/#menu">Our Menu</a>
+                </li>
+
+                <li>
+                    <a href="storehours.html">Store Hours</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <section class="hero">
+        <figure>
+            <img src="LTSimg.jpg/CONTACT US.jpg" alt="Contact Us" title="contact us" width="700" height="467"
+                loading="lazy">
+            <figcaption class="offscreen">
+                Little Tacos Shop Tacos</figcaption>
+        </figure>
+    </section>
+
+    <br>
+
+    <main class="main">
+        <article class="main__article">
+            <h3>Our Location</h3>
+            <p>
+            <address> 555 Taco Temptation Lane, Suite T Kansas City, MO 55555-5555</address>
+            </p> Phone:
+            <a href="tel=5555555555">555-555-5555</a>
+            <br>
+            <p>
+                <a href="#">Back To Top</a>
+            </p>
+
+            <article class="main__article contact">
+                <h2 class="contact__h2">Our Contact Form</h2>
+
+                <form action="https://httpbin.org/get" method="get" class="contact__form">
+
+                    <fieldset class="contact__fieldset">
+                        <legend class="offscreen">Send Us A Message</legend>
+                        <p class="contact__p">
+                            <label class="contact__label" for="name">Name:</label>
+                            <input class="contact__input" type="text" name="name" id="name" placeholder="Rashford"
+                                autocomplete="on" required>
+                        </p>
+                        <p class="contact__p">
+                            <label class="contact__label" for="email">Email:</label>
+                            <input class="contact__input" type="email" name="email" id="email" placeholder="Your Email"
+                                autocomplete="on" required>
+                        </p>
+
+                        <p class="contact__p">
+                            <label class="contact__label" for="message">Your Message:</label>
+                            <br>
+                            <textarea class="contact__textarea" name="message" id="message" cols="30" rows="10"
+                                placeholder="Type Your Message here"></textarea>
+                        </p>
+                    </fieldset>
+                    <button class="contact__button" type="submit">Send</button>
+
+                    <button class="contact__button" type="reset">Reset</button>
+                </form>
+            </article>
+            <br>
+
+        </article>
+    </main>
+    <footer class="footer">
+        <p>
+            <span> Copyright &copy;</span>
+            <span> Little Tacos Shop</span>
+        </p>
+    </footer>
+
+</body>
+
+</html>
