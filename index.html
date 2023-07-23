@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="icon" href="LTSimg.jpg/myicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="project.css">
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="header__h1">Little Taco Shop</h1>
+        <nav class="header__nav">
+            <ul class="header__ul">
+                <li>
+                    <a href="#menu">Menu</a>
+                </li>
+
+                <li>
+                    <a href="#about">About</a>
+                </li>
+
+                <li>
+                    <a href="storehours.html">Hours</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2 class="hero__h2">Bienvenidos!</h2>
+        <figure>
+            <img src="LTSimg.jpg/LTS.jpg" alt="Tacos" title="The best tacos shop" width="2880" height="2304"
+                loading="lazy">
+            <figcaption class="offscreen">A Tacos and A Drink</figcaption>
+        </figure>
+    </section>
+
+    <main class="main">
+        <article id="about" class="main__article about">
+            <h2>About <abbr title="The Little Tacos Shop">LTS</abbr></h2>
+            <P>
+                <abbr title="The Little Tacos Shop">LTS</abbr> was founded in 2022. our shop was built from the
+                <strong>love
+                    of tacos</strong>🌮🌮🌮. We hope our shop adds a unique and intersting place tomour little town.
+            </P>
+            <br>
+            <h3>Taco Triva</h3>
+
+            <aside class="about__trivia">
+                <details>
+                    <summary>
+                        When Did Tacos First Appear In The United States?
+                    </summary>
+                    <p class="about__trivia-answer">
+                        Jeffery M. Pilcher, taco historian and professor of history in the University of Minnesota, says
+                        the
+                        earliest mention of tac in the united states are in the newspaper from 1905. (Sorce:
+                        <em>Smithsonian Magazine</em> )
+                    </p>
+                </details>
+            </aside>
+        </article>
+
+        <article id="menu" class="main__article menu">
+            <h2 class="menu__h2">Our Menu</h2>
+            <table class="menu__container">
+                <caption class="offscreen">Our Tacos</caption>
+                <thead>
+                    <tr>
+                        <th class="menu__header" scope="col">Tacos</th>
+                        <th class="menu__header" scope="col"><abbr title="Quantity">Qty</abbr></th>
+                        <th class="menu__header" scope="col">Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th class="menu__item menu__cr" scope="row" rowspan="3">Crunchy</th>
+                        <td class="menu__item">1</td>
+                        <td class="menu__item">$1.50</td>
+
+                    </tr>
+                    <tr>
+                        <td class="menu__item">2</td>
+                        <td class="menu__item">$2.50</td>
+                    </tr>
+                    <tr>
+                        <td class="menu__item">3</td>
+                        <td class="menu__item">$3.25</td>
+                    </tr>
+                    <tr>
+                        <th class="menu__item menu__sf" scope="row" rowspan="3">Soft</th>
+                        <td class="menu__item">1</td>
+                        <td class="menu__item">$2.00</td>
+
+                    <tr>
+                        <td class="menu__item">2</td>
+                        <td class="menu__item">$3.50</td>
+                    </tr>
+                    <tr>
+                        <td class="menu__item">3</td>
+                        <td class="menu__item">$4.50</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td class="menu__item menu__cs" colspan="3">chips & salsa $2</td>
+                    </tr>
+                </tfoot>
+            </table>
+            <br>
+            <p class="center">
+                <a href="#">Back to top</a>
+            </p>
+        </article>
+    </main>
+
+    <footer class="footer">
+        <p>
+            <span> Copyright &copy;</span>
+            <span> Little Tacos Shop</span>
+        </p>
+    </footer>
+
+</body>
+
+</html>
